@@ -1,4 +1,4 @@
-from typing import Anymcp
+from typing import Any
 from mcp.server.fastmcp import FastMCP
 
 # Initialize Server
