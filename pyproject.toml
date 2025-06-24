@@ -1,7 +1,7 @@
 [project]
 name = "mcp-file-converter"
 version = "0.1.0"
-description = "Add your description here"
+description = "MCP server for converting pdf files into docx"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -9,4 +9,6 @@ dependencies = [
     "mcp[cli]>=1.9.4",
     "pdf2docx>=0.5.8",
     "pypandoc-binary>=1.15",
+    "pytest>=8.4.0",
+    "pytest-mock>=3.14.1",
 ]
