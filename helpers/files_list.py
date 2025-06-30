@@ -48,4 +48,29 @@ class Files_List:
         
         return items
     
+    def delete_position(self, key: int):
+        head = self.head
+        prev = None
+        temp = self.head
+
+        if head is None:
+            raise ValueError('Unable to delete None node value in list')
+        
+        if key == 1:
+            head = temp.next
+            return True
+        
+        for i in range(1, key):
+            prev = temp
+            temp = temp.next
+            if temp is None:
+                return False
+            
+        if temp is not None:
+            prev.next = temp.next
+
+        return True
+        
+
+    
 
