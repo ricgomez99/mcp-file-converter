@@ -1,9 +1,12 @@
+"""Node class to define node list structure"""
 class Node:
     def __init__(self, new_data):
         self.data: str = new_data
         self.next = None
 
-class Files_List:
+"""Upper class to define main linked list methods"""
+
+class FilesList:
     def __init__(self):
         self.head: Node = None
 

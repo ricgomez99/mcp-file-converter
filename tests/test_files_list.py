@@ -1,10 +1,10 @@
 import pytest
-from helpers import Files_List
+from helpers import FilesList
 
 @pytest.fixture
 def files_list():
     """Creates an instance of the linked list"""
-    return Files_List()
+    return FilesList()
 
 def test_inset_items(files_list):
     assert files_list.insert('file1.pdf') == True
