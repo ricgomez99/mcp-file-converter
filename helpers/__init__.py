@@ -1,4 +1,5 @@
 from .pdf_to_docx import pdf_to_docx
-from .files_list import Files_List
+from .files_list import FilesList
+from .convert_pdf import ConvertPdf
 
-__all__ = ['pdf_to_docx', 'Files_List']
+__all__ = ['pdf_to_docx', 'FilesList', 'ConvertPdf']
