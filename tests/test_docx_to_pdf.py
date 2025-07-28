@@ -21,4 +21,4 @@ def test_docx_to_pdf(source_file):
 
         assert output_file.exists()
         assert output_file.stat().st_size > 0
-        assert result == ""
+        assert result.returncode == 0
