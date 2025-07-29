@@ -1,0 +1,29 @@
+# Environments
+.venv/
+venv/
+.venv
+
+# Python Gen files
+__pycache__/
+*.pyc
+
+# Caches
+.pytest_cache/
+.vscode/
+.git/
+.gitignore
+.env
+tmp/
+temp/
+
+# Temp logs and files
+*.log
+*.swp
+*~
+
+# Tests
+tests/
+
+# Build and dist directories
+dist/
+build/
